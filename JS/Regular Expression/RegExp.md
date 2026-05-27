@@ -27,11 +27,12 @@ console.log(pattern3.test(input)) //true
 
 //[A-Z] anyone char capital
 //[a-z] anyone char small
+//[A-z] means all uppercase char and all smaller case char and - _ ` / [ ] ^
 //[d]  anyone char d
 //[3]  anyone num 3
 //[0-9] anyone number
 //[#]  anyone char
-//[4-5] anyone char
+//[4-5] anyone num
 //[c] anyone char
 //[a-d] anyone char
 //[35] anyone number
@@ -40,8 +41,8 @@ console.log(pattern3.test(input)) //true
 //[a-z5-6] anyone char
 //[a-z][5] both will match
 //[a-z]+[0-5] one or more matches
-//[a-z]*[0-5] optional * anyone
-//[b-d]?[0-5] optional ? anyone
+//[a-z]*[0-5] optional * anyone mandatory
+//[b-d]?[0-5] optional ? anyone mandatory
 //[b-d]{1}[0-5] only one char
 //[b-d]{2,5}[0-5] min=2,max=5
 //[b-d]{1,}[0-5] min=1,max=infinity
