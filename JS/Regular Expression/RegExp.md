@@ -40,7 +40,7 @@ console.log(pattern3.test(input)) //true
 //[a-z5] anyone char
 //[a-z5-6] anyone char
 //[a-z][5] both will match
-//[a-z]+[0-5] one or more matches
+//[a-z]+[0-5] anyone mandatory + anyone mandatory 
 //[a-z]*[0-5] optional * anyone mandatory
 //[b-d]?[0-5] optional ? anyone mandatory
 //[b-d]{1}[0-5] only one char
