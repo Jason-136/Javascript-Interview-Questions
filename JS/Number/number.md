@@ -184,9 +184,9 @@ console.log(x.toPrecision(0))    //error
 
 ```js
 let x = 123;
-consoel.log(x.valueOf())        //123
-consoel.log((123).valueOf())    //123
-consoel.log((100+23).valueOf()) //123
+console.log(x.valueOf())        //123
+console.log((123).valueOf())    //123
+console.log((100+23).valueOf()) //123
 ```
 
 - Number() : Convert variables to numbers.
