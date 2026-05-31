@@ -107,8 +107,8 @@ let pattern11 = /^[+][0-9]{2,2}\s[0-9]{10,12}$/
 input = '+91 9999977777'
 console.log(pattern.test(input))   //true
 
-\s - space
-\S - not space
+\s - whitespace char
+\S - non whitespace char
 \d - digit
 \D - not digit
 \w - special words
@@ -120,5 +120,23 @@ $ - end
 | - OR
 [^A-Z] - not captial A-Z
 \b - boundry
+
+### Non white space characters
+
+All letters (A-Z, a-z)
+All digits (0-9)
+All punctuation (!@#$%^&*(), etc.)
+All symbols (+, =, €, ₹, ©, etc.)
+All Unicode letters (中, あ, Ω, etc.)
+Emojis (😀, 🚀, ❤️, etc.)
+Thousands of other Unicode characters
+
+### white space characters
+
+' '   Space
+\t    Tab
+\n    Newline
+\r    Carriage Return
+
 ```
 
