@@ -97,6 +97,15 @@ console.log(pattern10.test(input))    //true
 input = "      g 2" 
 console.log(pattern10.test(input))    //false
 
+//Example 10
+var pattern = /^[-][ ][i][n][a][c][t][i][v][e]$/;
+var pattern1 = /^[-][\s]inactive$/i; //case insensitive
+//case insensitive - will accept capital or small
+var input = "- inactive"; 
+var input1 = "- Inactive";
+console.log(pattern1.test(input1));  //true
+console.log(pattern.test(input));    //true
+
 //Email Validation
 let pattern11 = /^[a-zA-Z0-9]{2,}[@][a-zA-Z]{2,}[.][A-Za-z]{2,}$/
 input = 'kowsalyal0303@gmail.com'
